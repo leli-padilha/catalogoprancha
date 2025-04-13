@@ -10,7 +10,7 @@ export default function Home() {
                     <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">
                         {shapers.map((shaper, index) =>
                             <li key={index} className="w-full h-36 flex justify-center items-center">
-                                <a href="/modelos" className="w-full h-full flex justify-center items-center font-semibold text-3xl bg-[url('/ondas.png')] bg-center rounded-xl transform transition duration-300 ease-in-out hover:scale-110">{shaper}</a>
+                                <a href="/modelos" className="w-full h-full flex text-white justify-center items-center font-semibold text-3xl bg-black rounded-xl transform transition duration-300 ease-in-out hover:scale-110">{shaper}</a>
                             </li>
                         )} 
                     </ul>
